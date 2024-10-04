@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Fragments.fragment_settings">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:background="@drawable/round_back_white10_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    >
+                    <ImageView
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:id="@+id/nightModeIcon"
+                        android:src="@drawable/baseline_nightlight_24"
+                        android:background="@drawable/round_back_night_mode"
+                        android:padding="12dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/nightModeIcon"
+                        android:text="Night Mode"
+                        android:textColor="@color/white"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:switchMinWidth="50dp"
+                        ></Switch>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="12dp"
+                    >
+                    <ImageView
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:id="@+id/notification"
+                        android:src="@drawable/baseline_notifications_24"
+                        android:background="@drawable/round_back_notification"
+                        android:padding="12dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/notification"
+                        android:text="Notification"
+                        android:textColor="@color/white"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:switchMinWidth="50dp"
+                        ></Switch>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="12dp"
+                    >
+                    <ImageView
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:id="@+id/updatebut"
+                        android:src="@drawable/baseline_security_update_24"
+                        android:background="@drawable/round_back_update"
+                        android:padding="12dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/updatebut"
+                        android:text="Auto Update"
+                        android:textColor="@color/white"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:switchMinWidth="50dp"
+                        ></Switch>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/round_back_white10_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                android:padding="15dp">
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    >
+                    <ImageView
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:id="@+id/AboutUs"
+                        android:src="@drawable/baseline_warehouse_24"
+                        android:background="@drawable/round_back_update"
+                        android:padding="12dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/AboutUs"
+                        android:text="About Us"
+                        android:textColor="@color/white"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_chevron_right_24"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                    </ImageView>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="12dp"
+                    >
+                    <ImageView
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:id="@+id/ContactUs"
+                        android:src="@drawable/baseline_message_24"
+                        android:background="@drawable/round_back_update"
+                        android:padding="12dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/ContactUs"
+                        android:text="Contact Us"
+                        android:textColor="@color/white"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_chevron_right_24"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                    </ImageView>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="12dp"
+                    >
+                    <ImageView
+                        android:layout_height="40dp"
+                        android:layout_width="40dp"
+                        android:id="@+id/langueges"
+                        android:src="@drawable/baseline_language_24"
+                        android:background="@drawable/round_back_update"
+                        android:padding="12dp">
+
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@id/langueges"
+                        android:text="Langueges"
+                        android:textColor="@color/white"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_chevron_right_24"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                    </ImageView>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

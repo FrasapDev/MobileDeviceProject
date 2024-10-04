@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "365218418024",
+    "project_id": "streamandwatch-7db1b",
+    "storage_bucket": "streamandwatch-7db1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365218418024:android:fa5d5c9236c663b6c9dadd",
+        "android_client_info": {
+          "package_name": "com.example.streamandwatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMNTndUMyOFuODiq9dkrBz_T9Z64p_Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
